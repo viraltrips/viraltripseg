@@ -2,7 +2,8 @@
 <html lang="ar">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="2; url=https://taplink.cc/viraltripseg" />
+    <!-- تحويل تلقائي بعد 2 ثانية مع Query String لتجاوز الكاش -->
+    <meta http-equiv="refresh" content="2; url=https://taplink.cc/viraltripseg?v=1" />
     <meta name="description" content="Viral Trips - أفضل عروض الرحلات لدهب وشرم الشيخ.">
     <title>Viral Trips Redirect</title>
     <style>
@@ -22,17 +23,18 @@
             text-decoration: none;
         }
         img.logo {
-            width: 150px; /* حجم اللوجو */
+            width: 150px;
             margin: 20px 0;
         }
     </style>
 </head>
 <body>
-    <!-- 1. إذا الصورة في نفس مجلد HTML -->
-    <img src="file:///C:/Users/start/Desktop/ViralTripsRedirect/logo.png.jpg" alt="Viral Trips Logo" class="logo" onerror="this.onerror=null; this.src='https://via.placeholder.com/150?text=Logo';" />
+    <!-- الصورة في نفس المجلد مع fallback إذا لم تظهر -->
+    <img src="logo.jpg" alt="Viral Trips Logo" class="logo"
+         onerror="this.onerror=null; this.src='https://via.placeholder.com/150?text=Logo';" />
     
     <h1>Viral Trips </h1>
     <p>جارٍ تحويلك إلى الصفحة المطلوبة…</p>
-    <p>إذا لم يتم التحويل <a href="https://taplink.cc/viraltripseg">اضغط هنا</a></p>
+    <p>إذا لم يتم التحويل <a href="https://taplink.cc/viraltripseg?v=1">اضغط هنا</a></p>
 </body>
 </html>
