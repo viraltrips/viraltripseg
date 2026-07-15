@@ -1,0 +1,13 @@
+{
+  "name": "Viral Trips Travel Hub",
+  "short_name": "Viral Trips",
+  "description": "Hotels, chalets, trip programs and activities for Dahab and Sharm El-Sheikh.",
+  "start_url": "./?lang=en&destination=dahab",
+  "display": "standalone",
+  "background_color": "#fefff9",
+  "theme_color": "#0e2a50",
+  "icons": [
+    {"src":"./icons/icon-192.png","sizes":"192x192","type":"image/png"},
+    {"src":"./icons/icon-512.png","sizes":"512x512","type":"image/png"}
+  ]
+}
